@@ -170,7 +170,7 @@ def save_to_html(data_list, html_filename):
     """
 
     for data in data_list:
-        if data['Сообщение']:
+        if 'Сообщение' in data:
             html_content += "<tr>"
             for header in headers:
                 html_content += f"<td>{data.get(header, '')}</td>"
