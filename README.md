@@ -1,5 +1,5 @@
 
-# Siberian Wellness Registration Parser
+# New Registrations Parser
 
 ## Описание
 
